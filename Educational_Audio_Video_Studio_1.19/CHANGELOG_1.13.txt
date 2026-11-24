@@ -1,0 +1,15 @@
+Educational Audio Video Studio 1.13
+
+NEW
+- Added a dedicated user voiceover / TTS audio input to Add Karaoke Sub.
+- Voiceover has independent volume (0–150%) and start offset in seconds.
+- Added sidechain ducking: when voiceover is active, original audio, background music and SFX are automatically reduced so narration stays in the foreground.
+- Bundled three original ambient SFX loops: Ambient Soft (default), Cinematic Airy and Tech Minimal. Added a one-click SFX off option and custom SFX file support.
+- Added gentle fade-in/fade-out to background music and ambient SFX.
+
+KEPT
+- Custom two-line outro, text watermark, five whole-video visual treatments, karaoke subtitles, original audio mute/volume and progress reporting.
+
+LIMITATIONS
+- Built-in SFX are ambient loop beds, not scene-aware one-shot transition sounds. Exact per-scene whoosh/impact placement needs timeline markers.
+- Windows GUI has not been tested on a physical Windows desktop in this session.

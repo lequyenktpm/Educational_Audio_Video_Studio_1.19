@@ -1,0 +1,4 @@
+Educational Audio Video Studio 1.12
+- Added editable two-line outro text and duration.
+- Added a text watermark that persists throughout the video, with corner and opacity controls.
+- Kept whole-video visual treatments and audio mix controls from 1.11.

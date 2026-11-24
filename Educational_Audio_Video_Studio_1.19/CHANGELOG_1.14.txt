@@ -1,0 +1,21 @@
+Educational Audio Video Studio 1.14 – 2026-11-22
+
+NEW: Reading Along Studio
+- Added a dedicated Reading Along Studio tab.
+- Offline topic templates for English and Japanese sample reading passages.
+- Editable lesson title and text; import TXT, MD, PDF and EPUB.
+- Automatic open-book page layout and generated pointing-hand graphic; no hand image/video asset required.
+- Word highlight + pointer tracking for English; short phrase-chunk tracking for Japanese.
+- Select TTS audio as the soundtrack and export vertical 720x1280 / 24 fps MP4.
+- Estimated timing works offline. Optional faster-whisper alignment for closer English word timing.
+- Added install_alignment.bat and pypdf dependency for PDF text extraction.
+
+PRESERVED from 1.13
+- Priority voiceover with audio ducking, built-in ambient SFX, music mix, karaoke subtitles, custom outro, text watermark and whole-video visual effects.
+
+LIMITATIONS
+- Offline lesson generation uses built-in templates, not an LLM.
+- Estimated timing is not forced alignment; Whisper option is English-focused and downloads its model on first use.
+- Japanese uses phrase chunks rather than dictionary-grade morphological word segmentation.
+- Reading Along output is vertical 720x1280 only; no real filmed person/avatar or timeline editor.
+- Windows GUI has not been tested on a physical Windows machine.

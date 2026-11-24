@@ -1,0 +1,2051 @@
+{
+  "schema_version": "1.3",
+  "project": {
+    "title": "English Polite Requests: Can, Could and May",
+    "source_language": "ja",
+    "display_language": "ja with English example phrases",
+    "target_audience": "Japanese-speaking learners of English at beginner to intermediate level",
+    "aspect_ratio": "9:16",
+    "fps": 30,
+    "visual_style": {
+      "name": "Clean educational editorial motion graphics",
+      "description": "Consistent educational typography with color-coded concepts and built-in 2.5D/3D illustrations.",
+      "palette": [
+        "#172B3A",
+        "#FFFFFF",
+        "#2E9D69",
+        "#4D9DE0",
+        "#A66BD6",
+        "#F5C84C"
+      ],
+      "font_mood": "Modern, highly legible sans-serif; support Japanese CJK glyphs and Latin English phrases",
+      "consistency_rules": [
+        "Use green for CAN/casual, blue for COULD/polite, and purple for MAY/formal.",
+        "Keep all educational objects and text in the upper 76 percent of the frame.",
+        "Reserve the bottom 24 percent of the frame for app-generated karaoke subtitles.",
+        "Use one primary learning point per scene.",
+        "Every scene is renderable without external media using visual_fallback."
+      ]
+    },
+    "allow_external_facts": false,
+    "audio_duration_s": 106.23
+  },
+  "learning_analysis": {
+    "topic": "Choosing polite English request forms: Can, Could and May",
+    "audience_level": "Beginner to intermediate English learners who understand Japanese narration",
+    "learning_objectives": [
+      "Recognize the relative level of formality associated with Can, Could and May in the examples in this lesson.",
+      "Choose Can for casual and familiar interactions, Could for softer and more polite requests, and May for formal contexts as presented in the script.",
+      "Understand that tone, please and a friendly expression also affect how a request sounds.",
+      "Apply Could when asking a boss for Friday off in the quiz example."
+    ],
+    "key_concepts": [
+      {
+        "concept_id": "concept_can",
+        "name": "Can",
+        "explanation": "Casual and friendly; used with friends, family and people the speaker knows well.",
+        "source_segment_ids": [
+          "seg_02",
+          "seg_03",
+          "seg_04",
+          "seg_14"
+        ]
+      },
+      {
+        "concept_id": "concept_could",
+        "name": "Could",
+        "explanation": "Softer and more polite; suitable for colleagues, teachers, shop staff and people who are not very close.",
+        "source_segment_ids": [
+          "seg_05",
+          "seg_06",
+          "seg_07",
+          "seg_08",
+          "seg_15",
+          "seg_18"
+        ]
+      },
+      {
+        "concept_id": "concept_may",
+        "name": "May",
+        "explanation": "The most formal option in this lesson, associated with hotels, offices and email.",
+        "source_segment_ids": [
+          "seg_09",
+          "seg_10",
+          "seg_11",
+          "seg_12",
+          "seg_16"
+        ]
+      },
+      {
+        "concept_id": "concept_tone",
+        "name": "Tone and politeness",
+        "explanation": "Tone is as important as wording; please and a smile can make Can sound warm and friendly.",
+        "source_segment_ids": [
+          "seg_19",
+          "seg_20"
+        ]
+      },
+      {
+        "concept_id": "concept_context_choice",
+        "name": "Choosing a request for a boss",
+        "explanation": "The lesson's quiz recommends “Could I take Friday off, please?” as the more natural-sounding option in the scenario.",
+        "source_segment_ids": [
+          "seg_21",
+          "seg_22",
+          "seg_23",
+          "seg_24",
+          "seg_25"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "from_concept_id": "concept_can",
+        "relation": "less formal than",
+        "to_concept_id": "concept_could"
+      },
+      {
+        "from_concept_id": "concept_could",
+        "relation": "less formal than",
+        "to_concept_id": "concept_may"
+      },
+      {
+        "from_concept_id": "concept_tone",
+        "relation": "modifies how a request is perceived alongside",
+        "to_concept_id": "concept_can"
+      },
+      {
+        "from_concept_id": "concept_context_choice",
+        "relation": "applies the polite request form",
+        "to_concept_id": "concept_could"
+      }
+    ],
+    "summary": "The lesson presents Can, Could and May as a progression from casual to more formal requests. It also emphasizes that tone, please and a smile affect how polite a request sounds, and recommends Could in the example of asking a boss for Friday off.",
+    "uncertainties": [
+      "The transcript's politeness scale is presented as a teaching simplification; the storyboard preserves the script's framing and does not add additional grammar caveats."
+    ]
+  },
+  "source_segments": [
+    {
+      "segment_id": "seg_01",
+      "text": "このシーンを想像してみて。カフェにいて、すごく喉が渇いて「水、くれる？」って言うんだ。言葉は正しいけど、ちょっとぶっきらぼうに聞こえる。なぜかって？英語には丁寧に聞くための特別な表現があって、相手によって使い分けるんだ。",
+      "start_s": 0.0,
+      "end_s": 11.96,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_02",
+      "text": "まずは can から。カジュアルでフレンドリー。友達や家族、よく知っている相手に使う。",
+      "start_s": 11.96,
+      "end_s": 17.04,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_03",
+      "text": "Can you pass the salt?",
+      "start_s": 17.04,
+      "end_s": 24.5,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_04",
+      "text": "Can I borrow your pen?",
+      "start_s": 24.5,
+      "end_s": 27.58,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_05",
+      "text": "次は could にステップアップ。ちょっと柔らかくて丁寧。",
+      "start_s": 27.58,
+      "end_s": 30.78,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_06",
+      "text": "同僚や先生、店員さん、あまり親しくない人に使える。",
+      "start_s": 30.78,
+      "end_s": 33.02,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_07",
+      "text": "Could I have some water, please?",
+      "start_s": 33.02,
+      "end_s": 38.4,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_08",
+      "text": "Could you help me with this?",
+      "start_s": 38.4,
+      "end_s": 41.72,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_09",
+      "text": "そして最上位が may。フォーマルな場面で使う。",
+      "start_s": 41.72,
+      "end_s": 44.4,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_10",
+      "text": "ホテルやオフィス、メールでよく聞く。",
+      "start_s": 44.4,
+      "end_s": 46.1,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_11",
+      "text": "May I come in?",
+      "start_s": 46.1,
+      "end_s": 49.26,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_12",
+      "text": "May I ask a question?",
+      "start_s": 49.26,
+      "end_s": 52.46,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_13",
+      "text": "だからこれを階段みたいに考えてみて。",
+      "start_s": 52.46,
+      "end_s": 53.82,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_14",
+      "text": "Can は下の段、普通。",
+      "start_s": 53.82,
+      "end_s": 57.04,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_15",
+      "text": "Could は中間の段、丁寧。",
+      "start_s": 57.04,
+      "end_s": 59.56,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_16",
+      "text": "May は上の段、すごくフォーマル。",
+      "start_s": 59.56,
+      "end_s": 64.4,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_17",
+      "text": "小さなコツだよ。",
+      "start_s": 64.4,
+      "end_s": 67.34,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_18",
+      "text": "迷ったら could を選べばほぼどこでも通用するし、いつも礼儀正しく聞こえる。",
+      "start_s": 67.34,
+      "end_s": 72.44,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_19",
+      "text": "もうひとつ大事なこと。",
+      "start_s": 72.44,
+      "end_s": 75.24,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_20",
+      "text": "トーンも言葉と同じくらい重要。please と笑顔を添えれば、たとえ can でも温かくフレンドリーに聞こえる。",
+      "start_s": 75.24,
+      "end_s": 81.42,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_21",
+      "text": "さあ、耳をチェックしよう。",
+      "start_s": 81.42,
+      "end_s": 84.8,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_22",
+      "text": "上司が通りかかって金曜に休みが欲しいとき。",
+      "start_s": 84.8,
+      "end_s": 87.34,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_23",
+      "text": "「Can I have Friday off?」とか言うか、",
+      "start_s": 87.34,
+      "end_s": 90.04,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_24",
+      "text": "「Could I take Friday off, please?」とか言うか。",
+      "start_s": 90.04,
+      "end_s": 95.66,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_25",
+      "text": "二番目を選べば、ネイティブらしい自然な表現になる。",
+      "start_s": 95.66,
+      "end_s": 98.14,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_26",
+      "text": "もっとこんなフレーズが知りたい？",
+      "start_s": 98.14,
+      "end_s": 99.8,
+      "timing_origin": "provided_script_timestamp"
+    },
+    {
+      "segment_id": "seg_27",
+      "text": "Follow along.",
+      "start_s": 99.8,
+      "end_s": 106.23,
+      "timing_origin": "provided_script_timestamp"
+    }
+  ],
+  "assets": [],
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "scene_type": "scenario",
+      "learning_goal": "A Cafe Request",
+      "segment_ids": [
+        "seg_01"
+      ],
+      "provisional_start_s": 0.0,
+      "provisional_end_s": 11.96,
+      "timing_status": "provisional",
+      "visual_summary": "Establish the cafe interior with the verified cafe photo, then cut to a close-up of a glass of water. Place a compact speech bubble with the blunt request; keep the Japanese narration subtitle band clear at the bottom.",
+      "layout": "hero_illustration",
+      "asset_ids": [],
+      "elements": [
+        {
+          "element_id": "s01_title",
+          "kind": "text",
+          "content": "WATER, PLEASE?",
+          "asset_id": null,
+          "role": "example_phrase",
+          "sync_anchor": {
+            "segment_id": "seg_01",
+            "anchor_type": "phrase",
+            "quote": "「水、くれる？」"
+          },
+          "position": {
+            "x": 0.12,
+            "y": 0.55,
+            "width": 0.76,
+            "height": 0.1
+          },
+          "style": {
+            "color": "#F5C84C",
+            "size_role": "display",
+            "weight": "black",
+            "alignment": "center",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "scale_in",
+            "out": "fade",
+            "duration_s": 0.45
+          }
+        },
+        {
+          "element_id": "s01_note",
+          "kind": "text",
+          "content": "CORRECT — BUT BLUNT",
+          "asset_id": null,
+          "role": "learning_point",
+          "sync_anchor": {
+            "segment_id": "seg_01",
+            "anchor_type": "phrase",
+            "quote": "ちょっとぶっきらぼうに聞こえる"
+          },
+          "position": {
+            "x": 0.12,
+            "y": 0.66,
+            "width": 0.76,
+            "height": 0.06
+          },
+          "style": {
+            "color": "#FFFFFF",
+            "size_role": "label",
+            "weight": "bold",
+            "alignment": "center",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "fade_up",
+            "out": "fade",
+            "duration_s": 0.5
+          }
+        }
+      ],
+      "transition_in": "fade",
+      "notes": "The restaurant photo is an exterior establishing shot; the water-glass photo supplies the specific prop. Do not imply the photo itself shows a thirsty customer.",
+      "visual_fallback": {
+        "mode": "3d_illustration",
+        "background": {
+          "primary": "#172B3A",
+          "secondary": "#0D1924",
+          "accent": "#2E9D69",
+          "pattern": "soft_glow"
+        },
+        "objects": [
+          {
+            "object_id": "scene_01_person",
+            "shape": "person",
+            "position": {
+              "x": 0.13,
+              "y": 0.26,
+              "width": 0.24,
+              "height": 0.34
+            },
+            "color": "#4D9DE0",
+            "secondary_color": "#4D9DE0",
+            "label": null,
+            "detail": "Cafe customer",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "float"
+          },
+          {
+            "object_id": "scene_01_cup",
+            "shape": "cup",
+            "position": {
+              "x": 0.67,
+              "y": 0.32,
+              "width": 0.2,
+              "height": 0.25
+            },
+            "color": "#2E9D69",
+            "secondary_color": "#4D9DE0",
+            "label": null,
+            "detail": "Glass of water",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "pulse"
+          },
+          {
+            "object_id": "scene_01_bubble",
+            "shape": "speech_bubble",
+            "position": {
+              "x": 0.37,
+              "y": 0.15,
+              "width": 0.3,
+              "height": 0.19
+            },
+            "color": "#A66BD6",
+            "secondary_color": "#4D9DE0",
+            "label": null,
+            "detail": "Request bubble",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "rise"
+          }
+        ],
+        "connectors": [],
+        "notes": "Built-in 2.5D/3D educational illustration; no external image or video required."
+      }
+    },
+    {
+      "scene_id": "scene_02",
+      "scene_type": "definition",
+      "learning_goal": "Casual Requests",
+      "segment_ids": [
+        "seg_02"
+      ],
+      "provisional_start_s": 11.96,
+      "provisional_end_s": 17.04,
+      "timing_status": "provisional",
+      "visual_summary": "Use the team-meeting photograph as a contextual image of familiar people interacting. Overlay a large CAN label and compact tags for friends, family and familiar people.",
+      "layout": "title_and_subtitle",
+      "asset_ids": [],
+      "elements": [
+        {
+          "element_id": "s02_can",
+          "kind": "text",
+          "content": "CAN",
+          "asset_id": null,
+          "role": "key_concept",
+          "sync_anchor": {
+            "segment_id": "seg_02",
+            "anchor_type": "phrase",
+            "quote": "まずは can から"
+          },
+          "position": {
+            "x": 0.12,
+            "y": 0.53,
+            "width": 0.76,
+            "height": 0.12
+          },
+          "style": {
+            "color": "#2E9D69",
+            "size_role": "display",
+            "weight": "black",
+            "alignment": "center",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "scale_in",
+            "out": "fade",
+            "duration_s": 0.45
+          }
+        },
+        {
+          "element_id": "s02_tags",
+          "kind": "text",
+          "content": "CASUAL  ·  FRIENDLY",
+          "asset_id": null,
+          "role": "definition",
+          "sync_anchor": {
+            "segment_id": "seg_02",
+            "anchor_type": "phrase",
+            "quote": "カジュアルでフレンドリー"
+          },
+          "position": {
+            "x": 0.12,
+            "y": 0.66,
+            "width": 0.76,
+            "height": 0.06
+          },
+          "style": {
+            "color": "#FFFFFF",
+            "size_role": "label",
+            "weight": "bold",
+            "alignment": "center",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "fade_up",
+            "out": "fade",
+            "duration_s": 0.5
+          }
+        }
+      ],
+      "transition_in": "cut",
+      "notes": "Use the image as a social-context visual; keep the concept label visually dominant.",
+      "visual_fallback": {
+        "mode": "3d_illustration",
+        "background": {
+          "primary": "#172B3A",
+          "secondary": "#0D1924",
+          "accent": "#4D9DE0",
+          "pattern": "dots"
+        },
+        "objects": [
+          {
+            "object_id": "scene_02_friend_a",
+            "shape": "person",
+            "position": {
+              "x": 0.17,
+              "y": 0.25,
+              "width": 0.24,
+              "height": 0.35
+            },
+            "color": "#2E9D69",
+            "secondary_color": "#4D9DE0",
+            "label": null,
+            "detail": "First friend",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "float"
+          },
+          {
+            "object_id": "scene_02_friend_b",
+            "shape": "person",
+            "position": {
+              "x": 0.59,
+              "y": 0.25,
+              "width": 0.24,
+              "height": 0.35
+            },
+            "color": "#4D9DE0",
+            "secondary_color": "#4D9DE0",
+            "label": null,
+            "detail": "Second friend",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "float"
+          }
+        ],
+        "connectors": [],
+        "notes": "Built-in 2.5D/3D educational illustration; no external image or video required."
+      }
+    },
+    {
+      "scene_id": "scene_03",
+      "scene_type": "example",
+      "learning_goal": "Everyday Can Examples",
+      "segment_ids": [
+        "seg_03",
+        "seg_04"
+      ],
+      "provisional_start_s": 17.04,
+      "provisional_end_s": 27.58,
+      "timing_status": "provisional",
+      "visual_summary": "Create two sequential example cards. First show the salt shaker as the object being passed; then show a close-up hand holding a pen over paper for the borrowing example. Keep one example visible at a time.",
+      "layout": "two_column",
+      "asset_ids": [],
+      "elements": [
+        {
+          "element_id": "s03_salt_text",
+          "kind": "text",
+          "content": "Can you pass the salt?",
+          "asset_id": null,
+          "role": "example_sentence",
+          "sync_anchor": {
+            "segment_id": "seg_03",
+            "anchor_type": "phrase",
+            "quote": "Can you pass the salt?"
+          },
+          "position": {
+            "x": 0.5,
+            "y": 0.2,
+            "width": 0.42,
+            "height": 0.2
+          },
+          "style": {
+            "color": "#FFFFFF",
+            "size_role": "headline",
+            "weight": "bold",
+            "alignment": "left",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "reveal",
+            "out": "fade",
+            "duration_s": 0.5
+          }
+        },
+        {
+          "element_id": "s03_pen_text",
+          "kind": "text",
+          "content": "Can I borrow your pen?",
+          "asset_id": null,
+          "role": "example_sentence",
+          "sync_anchor": {
+            "segment_id": "seg_04",
+            "anchor_type": "phrase",
+            "quote": "Can I borrow your pen?"
+          },
+          "position": {
+            "x": 0.5,
+            "y": 0.2,
+            "width": 0.42,
+            "height": 0.2
+          },
+          "style": {
+            "color": "#FFFFFF",
+            "size_role": "headline",
+            "weight": "bold",
+            "alignment": "left",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "reveal",
+            "out": "fade",
+            "duration_s": 0.5
+          }
+        }
+      ],
+      "transition_in": "cut",
+      "notes": "The app should sequence the two cards using each source segment's aligned timing rather than showing both examples at once.",
+      "visual_fallback": {
+        "mode": "3d_illustration",
+        "background": {
+          "primary": "#172B3A",
+          "secondary": "#0D1924",
+          "accent": "#A66BD6",
+          "pattern": "soft_glow"
+        },
+        "objects": [
+          {
+            "object_id": "scene_03_salt",
+            "shape": "cuboid",
+            "position": {
+              "x": 0.1,
+              "y": 0.27,
+              "width": 0.25,
+              "height": 0.3
+            },
+            "color": "#F5C84C",
+            "secondary_color": "#4D9DE0",
+            "label": null,
+            "detail": "Salt container",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "float"
+          },
+          {
+            "object_id": "scene_03_pen",
+            "shape": "arrow3d",
+            "position": {
+              "x": 0.17,
+              "y": 0.47,
+              "width": 0.28,
+              "height": 0.1
+            },
+            "color": "#4D9DE0",
+            "secondary_color": "#4D9DE0",
+            "label": null,
+            "detail": "Pen-like pointer",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "draw_in"
+          }
+        ],
+        "connectors": [],
+        "notes": "Built-in 2.5D/3D educational illustration; no external image or video required."
+      }
+    },
+    {
+      "scene_id": "scene_04",
+      "scene_type": "definition",
+      "learning_goal": "More Polite: Could",
+      "segment_ids": [
+        "seg_05",
+        "seg_06"
+      ],
+      "provisional_start_s": 27.58,
+      "provisional_end_s": 33.02,
+      "timing_status": "provisional",
+      "visual_summary": "Show a professional group meeting photograph, with a simple visual step-up from CAN to COULD. Keep the comparison restrained and clearly communicate that COULD is softer and more polite.",
+      "layout": "comparison_cards",
+      "asset_ids": [],
+      "elements": [
+        {
+          "element_id": "s04_compare",
+          "kind": "text",
+          "content": "CAN  →  COULD",
+          "asset_id": null,
+          "role": "comparison",
+          "sync_anchor": {
+            "segment_id": "seg_05",
+            "anchor_type": "phrase",
+            "quote": "could にステップアップ"
+          },
+          "position": {
+            "x": 0.1,
+            "y": 0.51,
+            "width": 0.8,
+            "height": 0.1
+          },
+          "style": {
+            "color": "#4D9DE0",
+            "size_role": "display",
+            "weight": "black",
+            "alignment": "center",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "slide_left",
+            "out": "fade",
+            "duration_s": 0.5
+          }
+        },
+        {
+          "element_id": "s04_label",
+          "kind": "text",
+          "content": "SOFTER  ·  MORE POLITE",
+          "asset_id": null,
+          "role": "definition",
+          "sync_anchor": {
+            "segment_id": "seg_05",
+            "anchor_type": "phrase",
+            "quote": "ちょっと柔らかくて丁寧"
+          },
+          "position": {
+            "x": 0.12,
+            "y": 0.64,
+            "width": 0.76,
+            "height": 0.07
+          },
+          "style": {
+            "color": "#FFFFFF",
+            "size_role": "label",
+            "weight": "bold",
+            "alignment": "center",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "fade_up",
+            "out": "fade",
+            "duration_s": 0.5
+          }
+        }
+      ],
+      "transition_in": "dissolve",
+      "notes": "The meeting photo is used as a general professional-context image, not as a depiction of a specific teacher or shop assistant.",
+      "visual_fallback": {
+        "mode": "3d_illustration",
+        "background": {
+          "primary": "#172B3A",
+          "secondary": "#0D1924",
+          "accent": "#F5C84C",
+          "pattern": "dots"
+        },
+        "objects": [
+          {
+            "object_id": "scene_04_can",
+            "shape": "cuboid",
+            "position": {
+              "x": 0.1,
+              "y": 0.24,
+              "width": 0.27,
+              "height": 0.29
+            },
+            "color": "#2E9D69",
+            "secondary_color": "#4D9DE0",
+            "label": null,
+            "detail": "Casual level",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "float"
+          },
+          {
+            "object_id": "scene_04_could",
+            "shape": "cuboid",
+            "position": {
+              "x": 0.63,
+              "y": 0.21,
+              "width": 0.27,
+              "height": 0.32
+            },
+            "color": "#4D9DE0",
+            "secondary_color": "#4D9DE0",
+            "label": null,
+            "detail": "More polite level",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "float"
+          }
+        ],
+        "connectors": [
+          {
+            "from_object": "scene_04_can",
+            "to_object": "scene_04_could",
+            "label": "MORE POLITE",
+            "style": "arrow",
+            "color": "#F5C84C"
+          }
+        ],
+        "notes": "Built-in 2.5D/3D educational illustration; no external image or video required."
+      }
+    },
+    {
+      "scene_id": "scene_05",
+      "scene_type": "example",
+      "learning_goal": "Could in Real Life",
+      "segment_ids": [
+        "seg_07",
+        "seg_08"
+      ],
+      "provisional_start_s": 33.02,
+      "provisional_end_s": 41.72,
+      "timing_status": "provisional",
+      "visual_summary": "Use a half-filled glass of water for the first example and a team interaction photograph for the second. Present each English sentence as a concise readable card; highlight COULD and PLEASE through typography.",
+      "layout": "two_column",
+      "asset_ids": [],
+      "elements": [
+        {
+          "element_id": "s05_water_text",
+          "kind": "text",
+          "content": "Could I have some water, please?",
+          "asset_id": null,
+          "role": "example_sentence",
+          "sync_anchor": {
+            "segment_id": "seg_07",
+            "anchor_type": "phrase",
+            "quote": "Could I have some water, please?"
+          },
+          "position": {
+            "x": 0.48,
+            "y": 0.18,
+            "width": 0.44,
+            "height": 0.24
+          },
+          "style": {
+            "color": "#FFFFFF",
+            "size_role": "headline",
+            "weight": "bold",
+            "alignment": "left",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "reveal",
+            "out": "fade",
+            "duration_s": 0.5
+          }
+        },
+        {
+          "element_id": "s05_help_text",
+          "kind": "text",
+          "content": "Could you help me with this?",
+          "asset_id": null,
+          "role": "example_sentence",
+          "sync_anchor": {
+            "segment_id": "seg_08",
+            "anchor_type": "phrase",
+            "quote": "Could you help me with this?"
+          },
+          "position": {
+            "x": 0.48,
+            "y": 0.18,
+            "width": 0.44,
+            "height": 0.24
+          },
+          "style": {
+            "color": "#FFFFFF",
+            "size_role": "headline",
+            "weight": "bold",
+            "alignment": "left",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "reveal",
+            "out": "fade",
+            "duration_s": 0.5
+          }
+        }
+      ],
+      "transition_in": "cut",
+      "notes": "Sequence the water example and help example according to the aligned audio anchors.",
+      "visual_fallback": {
+        "mode": "3d_illustration",
+        "background": {
+          "primary": "#172B3A",
+          "secondary": "#0D1924",
+          "accent": "#2E9D69",
+          "pattern": "soft_glow"
+        },
+        "objects": [
+          {
+            "object_id": "scene_05_water",
+            "shape": "cup",
+            "position": {
+              "x": 0.08,
+              "y": 0.31,
+              "width": 0.2,
+              "height": 0.26
+            },
+            "color": "#4D9DE0",
+            "secondary_color": "#4D9DE0",
+            "label": null,
+            "detail": "Water glass",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "pulse"
+          },
+          {
+            "object_id": "scene_05_person",
+            "shape": "person",
+            "position": {
+              "x": 0.24,
+              "y": 0.23,
+              "width": 0.21,
+              "height": 0.3
+            },
+            "color": "#2E9D69",
+            "secondary_color": "#4D9DE0",
+            "label": null,
+            "detail": "Person asking politely",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "float"
+          }
+        ],
+        "connectors": [],
+        "notes": "Built-in 2.5D/3D educational illustration; no external image or video required."
+      }
+    },
+    {
+      "scene_id": "scene_06",
+      "scene_type": "example",
+      "learning_goal": "Formal Requests: May",
+      "segment_ids": [
+        "seg_09",
+        "seg_10",
+        "seg_11",
+        "seg_12"
+      ],
+      "provisional_start_s": 41.72,
+      "provisional_end_s": 52.46,
+      "timing_status": "provisional",
+      "visual_summary": "Use a professional meeting photograph for office context and a conference audience member raising a hand for the question example. Display MAY as a formal register label; sequence the two example phrases.",
+      "layout": "two_column",
+      "asset_ids": [],
+      "elements": [
+        {
+          "element_id": "s06_may",
+          "kind": "text",
+          "content": "MAY",
+          "asset_id": null,
+          "role": "key_concept",
+          "sync_anchor": {
+            "segment_id": "seg_09",
+            "anchor_type": "phrase",
+            "quote": "may。フォーマルな場面"
+          },
+          "position": {
+            "x": 0.5,
+            "y": 0.12,
+            "width": 0.42,
+            "height": 0.1
+          },
+          "style": {
+            "color": "#A66BD6",
+            "size_role": "display",
+            "weight": "black",
+            "alignment": "center",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "scale_in",
+            "out": "fade",
+            "duration_s": 0.45
+          }
+        },
+        {
+          "element_id": "s06_context",
+          "kind": "text",
+          "content": "FORMAL",
+          "asset_id": null,
+          "role": "definition",
+          "sync_anchor": {
+            "segment_id": "seg_10",
+            "anchor_type": "phrase",
+            "quote": "ホテルやオフィス"
+          },
+          "position": {
+            "x": 0.5,
+            "y": 0.25,
+            "width": 0.42,
+            "height": 0.07
+          },
+          "style": {
+            "color": "#FFFFFF",
+            "size_role": "label",
+            "weight": "bold",
+            "alignment": "center",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "fade_up",
+            "out": "fade",
+            "duration_s": 0.4
+          }
+        },
+        {
+          "element_id": "s06_door_phrase",
+          "kind": "text",
+          "content": "May I come in?",
+          "asset_id": null,
+          "role": "example_sentence",
+          "sync_anchor": {
+            "segment_id": "seg_11",
+            "anchor_type": "phrase",
+            "quote": "May I come in?"
+          },
+          "position": {
+            "x": 0.1,
+            "y": 0.53,
+            "width": 0.8,
+            "height": 0.07
+          },
+          "style": {
+            "color": "#FFFFFF",
+            "size_role": "headline",
+            "weight": "bold",
+            "alignment": "center",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "reveal",
+            "out": "fade",
+            "duration_s": 0.45
+          }
+        },
+        {
+          "element_id": "s06_question_text",
+          "kind": "text",
+          "content": "May I ask a question?",
+          "asset_id": null,
+          "role": "example_sentence",
+          "sync_anchor": {
+            "segment_id": "seg_12",
+            "anchor_type": "phrase",
+            "quote": "May I ask a question?"
+          },
+          "position": {
+            "x": 0.5,
+            "y": 0.53,
+            "width": 0.42,
+            "height": 0.12
+          },
+          "style": {
+            "color": "#FFFFFF",
+            "size_role": "headline",
+            "weight": "bold",
+            "alignment": "left",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "reveal",
+            "out": "fade",
+            "duration_s": 0.5
+          }
+        }
+      ],
+      "transition_in": "dissolve",
+      "notes": "The conference image directly supports asking a question; the meeting photo supports the formal/office context. Do not claim it depicts a hotel or email.",
+      "visual_fallback": {
+        "mode": "3d_illustration",
+        "background": {
+          "primary": "#172B3A",
+          "secondary": "#0D1924",
+          "accent": "#4D9DE0",
+          "pattern": "dots"
+        },
+        "objects": [
+          {
+            "object_id": "scene_06_office",
+            "shape": "monitor",
+            "position": {
+              "x": 0.08,
+              "y": 0.23,
+              "width": 0.33,
+              "height": 0.3
+            },
+            "color": "#A66BD6",
+            "secondary_color": "#4D9DE0",
+            "label": null,
+            "detail": "Office setting",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "float"
+          },
+          {
+            "object_id": "scene_06_person",
+            "shape": "person",
+            "position": {
+              "x": 0.24,
+              "y": 0.36,
+              "width": 0.23,
+              "height": 0.28
+            },
+            "color": "#4D9DE0",
+            "secondary_color": "#4D9DE0",
+            "label": null,
+            "detail": "Person at an office",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "float"
+          }
+        ],
+        "connectors": [],
+        "notes": "Built-in 2.5D/3D educational illustration; no external image or video required."
+      }
+    },
+    {
+      "scene_id": "scene_07",
+      "scene_type": "diagram",
+      "learning_goal": "The Politeness Ladder",
+      "segment_ids": [
+        "seg_13",
+        "seg_14",
+        "seg_15",
+        "seg_16"
+      ],
+      "provisional_start_s": 52.46,
+      "provisional_end_s": 64.4,
+      "timing_status": "provisional",
+      "visual_summary": "Use the real staircase photo as the background metaphor. Add three clearly labeled steps: CAN at the bottom, COULD in the middle and MAY at the top. Labels appear one after another in sync with the relevant source segment.",
+      "layout": "staircase",
+      "asset_ids": [],
+      "elements": [
+        {
+          "element_id": "s07_can",
+          "kind": "text",
+          "content": "CAN · CASUAL",
+          "asset_id": null,
+          "role": "bottom_step",
+          "sync_anchor": {
+            "segment_id": "seg_14",
+            "anchor_type": "phrase",
+            "quote": "Can は下の段、普通"
+          },
+          "position": {
+            "x": 0.1,
+            "y": 0.58,
+            "width": 0.8,
+            "height": 0.07
+          },
+          "style": {
+            "color": "#2E9D69",
+            "size_role": "headline",
+            "weight": "black",
+            "alignment": "center",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "fade_up",
+            "out": "fade",
+            "duration_s": 0.4
+          }
+        },
+        {
+          "element_id": "s07_could",
+          "kind": "text",
+          "content": "COULD · POLITE",
+          "asset_id": null,
+          "role": "middle_step",
+          "sync_anchor": {
+            "segment_id": "seg_15",
+            "anchor_type": "phrase",
+            "quote": "Could は中間の段、丁寧"
+          },
+          "position": {
+            "x": 0.1,
+            "y": 0.48,
+            "width": 0.8,
+            "height": 0.07
+          },
+          "style": {
+            "color": "#4D9DE0",
+            "size_role": "headline",
+            "weight": "black",
+            "alignment": "center",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "fade_up",
+            "out": "fade",
+            "duration_s": 0.4
+          }
+        },
+        {
+          "element_id": "s07_may",
+          "kind": "text",
+          "content": "MAY · FORMAL",
+          "asset_id": null,
+          "role": "top_step",
+          "sync_anchor": {
+            "segment_id": "seg_16",
+            "anchor_type": "phrase",
+            "quote": "May は上の段、すごくフォーマル"
+          },
+          "position": {
+            "x": 0.1,
+            "y": 0.38,
+            "width": 0.8,
+            "height": 0.07
+          },
+          "style": {
+            "color": "#A66BD6",
+            "size_role": "headline",
+            "weight": "black",
+            "alignment": "center",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "fade_up",
+            "out": "fade",
+            "duration_s": 0.4
+          }
+        }
+      ],
+      "transition_in": "fade",
+      "notes": "Use text overlays to make the three-step hierarchy explicit; keep all labels above the karaoke subtitle band.",
+      "visual_fallback": {
+        "mode": "3d_illustration",
+        "background": {
+          "primary": "#172B3A",
+          "secondary": "#0D1924",
+          "accent": "#A66BD6",
+          "pattern": "soft_glow"
+        },
+        "objects": [
+          {
+            "object_id": "scene_07_steps",
+            "shape": "staircase",
+            "position": {
+              "x": 0.19,
+              "y": 0.13,
+              "width": 0.62,
+              "height": 0.37
+            },
+            "color": "#4D9DE0",
+            "secondary_color": "#A66BD6",
+            "label": null,
+            "detail": "Three levels of politeness",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "rise"
+          }
+        ],
+        "connectors": [],
+        "notes": "Built-in 2.5D/3D educational illustration; no external image or video required."
+      }
+    },
+    {
+      "scene_id": "scene_08",
+      "scene_type": "summary",
+      "learning_goal": "Choose Could",
+      "segment_ids": [
+        "seg_17",
+        "seg_18"
+      ],
+      "provisional_start_s": 64.4,
+      "provisional_end_s": 72.44,
+      "timing_status": "provisional",
+      "visual_summary": "Keep the professional interaction photo subdued in the background. Center the recommendation CHOOSE COULD and show a small note that it works in most situations, matching the narration.",
+      "layout": "title_and_subtitle",
+      "asset_ids": [],
+      "elements": [
+        {
+          "element_id": "s08_title",
+          "kind": "text",
+          "content": "WHEN IN DOUBT…",
+          "asset_id": null,
+          "role": "tip_setup",
+          "sync_anchor": {
+            "segment_id": "seg_18",
+            "anchor_type": "phrase",
+            "quote": "迷ったら"
+          },
+          "position": {
+            "x": 0.1,
+            "y": 0.52,
+            "width": 0.8,
+            "height": 0.08
+          },
+          "style": {
+            "color": "#FFFFFF",
+            "size_role": "headline",
+            "weight": "bold",
+            "alignment": "center",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "fade_up",
+            "out": "fade",
+            "duration_s": 0.4
+          }
+        },
+        {
+          "element_id": "s08_key",
+          "kind": "text",
+          "content": "CHOOSE COULD",
+          "asset_id": null,
+          "role": "tip",
+          "sync_anchor": {
+            "segment_id": "seg_18",
+            "anchor_type": "phrase",
+            "quote": "could を選べば"
+          },
+          "position": {
+            "x": 0.1,
+            "y": 0.61,
+            "width": 0.8,
+            "height": 0.09
+          },
+          "style": {
+            "color": "#4D9DE0",
+            "size_role": "display",
+            "weight": "black",
+            "alignment": "center",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "scale_in",
+            "out": "fade",
+            "duration_s": 0.45
+          }
+        }
+      ],
+      "transition_in": "cut",
+      "notes": "A concise summary card; avoid adding a broader grammar rule beyond the transcript.",
+      "visual_fallback": {
+        "mode": "3d_illustration",
+        "background": {
+          "primary": "#172B3A",
+          "secondary": "#0D1924",
+          "accent": "#F5C84C",
+          "pattern": "dots"
+        },
+        "objects": [
+          {
+            "object_id": "scene_08_tip",
+            "shape": "light_bulb",
+            "position": {
+              "x": 0.35,
+              "y": 0.17,
+              "width": 0.3,
+              "height": 0.34
+            },
+            "color": "#F5C84C",
+            "secondary_color": "#4D9DE0",
+            "label": null,
+            "detail": "Practical tip",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "glow"
+          }
+        ],
+        "connectors": [],
+        "notes": "Built-in 2.5D/3D educational illustration; no external image or video required."
+      }
+    },
+    {
+      "scene_id": "scene_09",
+      "scene_type": "comparison",
+      "learning_goal": "Tone Matters",
+      "segment_ids": [
+        "seg_19",
+        "seg_20"
+      ],
+      "provisional_start_s": 72.44,
+      "provisional_end_s": 81.42,
+      "timing_status": "provisional",
+      "visual_summary": "Use the team interaction photo as a neutral social context. Present a two-part comparison: words alone versus words with please and a warm tone. Emphasize TONE + PLEASE + SMILE without adding unsupported claims.",
+      "layout": "comparison_cards",
+      "asset_ids": [],
+      "elements": [
+        {
+          "element_id": "s09_left",
+          "kind": "text",
+          "content": "CAN",
+          "asset_id": null,
+          "role": "words",
+          "sync_anchor": {
+            "segment_id": "seg_20",
+            "anchor_type": "phrase",
+            "quote": "たとえ can でも"
+          },
+          "position": {
+            "x": 0.1,
+            "y": 0.52,
+            "width": 0.34,
+            "height": 0.08
+          },
+          "style": {
+            "color": "#FFFFFF",
+            "size_role": "headline",
+            "weight": "bold",
+            "alignment": "center",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "fade_up",
+            "out": "fade",
+            "duration_s": 0.4
+          }
+        },
+        {
+          "element_id": "s09_right",
+          "kind": "text",
+          "content": "CAN + PLEASE + SMILE",
+          "asset_id": null,
+          "role": "tone",
+          "sync_anchor": {
+            "segment_id": "seg_20",
+            "anchor_type": "phrase",
+            "quote": "please と笑顔を添えれば"
+          },
+          "position": {
+            "x": 0.48,
+            "y": 0.52,
+            "width": 0.42,
+            "height": 0.1
+          },
+          "style": {
+            "color": "#2E9D69",
+            "size_role": "headline",
+            "weight": "black",
+            "alignment": "center",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "fade_up",
+            "out": "fade",
+            "duration_s": 0.4
+          }
+        },
+        {
+          "element_id": "s09_note",
+          "kind": "text",
+          "content": "TONE MATTERS",
+          "asset_id": null,
+          "role": "key_point",
+          "sync_anchor": {
+            "segment_id": "seg_20",
+            "anchor_type": "phrase",
+            "quote": "トーンも言葉と同じくらい重要"
+          },
+          "position": {
+            "x": 0.1,
+            "y": 0.65,
+            "width": 0.8,
+            "height": 0.06
+          },
+          "style": {
+            "color": "#F5C84C",
+            "size_role": "label",
+            "weight": "bold",
+            "alignment": "center",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "fade",
+            "out": "fade",
+            "duration_s": 0.4
+          }
+        }
+      ],
+      "transition_in": "dissolve",
+      "notes": "Use the graphic comparison to explain the spoken point; the photo is contextual, not evidence of any specific facial expression.",
+      "visual_fallback": {
+        "mode": "3d_illustration",
+        "background": {
+          "primary": "#172B3A",
+          "secondary": "#0D1924",
+          "accent": "#2E9D69",
+          "pattern": "soft_glow"
+        },
+        "objects": [
+          {
+            "object_id": "scene_09_speaker_a",
+            "shape": "person",
+            "position": {
+              "x": 0.08,
+              "y": 0.24,
+              "width": 0.24,
+              "height": 0.32
+            },
+            "color": "#2E9D69",
+            "secondary_color": "#4D9DE0",
+            "label": null,
+            "detail": "Friendly speaker",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "float"
+          },
+          {
+            "object_id": "scene_09_speaker_b",
+            "shape": "person",
+            "position": {
+              "x": 0.68,
+              "y": 0.24,
+              "width": 0.24,
+              "height": 0.32
+            },
+            "color": "#4D9DE0",
+            "secondary_color": "#4D9DE0",
+            "label": null,
+            "detail": "Listener",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "float"
+          },
+          {
+            "object_id": "scene_09_bubble",
+            "shape": "speech_bubble",
+            "position": {
+              "x": 0.36,
+              "y": 0.18,
+              "width": 0.28,
+              "height": 0.19
+            },
+            "color": "#F5C84C",
+            "secondary_color": "#4D9DE0",
+            "label": null,
+            "detail": "Tone and smile",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "float"
+          }
+        ],
+        "connectors": [],
+        "notes": "Built-in 2.5D/3D educational illustration; no external image or video required."
+      }
+    },
+    {
+      "scene_id": "scene_10",
+      "scene_type": "quiz",
+      "learning_goal": "Requesting Friday Off",
+      "segment_ids": [
+        "seg_21",
+        "seg_22",
+        "seg_23",
+        "seg_24"
+      ],
+      "provisional_start_s": 81.42,
+      "provisional_end_s": 95.66,
+      "timing_status": "provisional",
+      "visual_summary": "Use a professional meeting photo to establish a workplace context and a raised-hand conference image as a secondary question cue. Show the scenario, then reveal option A and option B in sequence. Do not mark the answer before the narration presents the second option.",
+      "layout": "quiz_card",
+      "asset_ids": [],
+      "elements": [
+        {
+          "element_id": "s10_scenario",
+          "kind": "text",
+          "content": "YOU WANT FRIDAY OFF",
+          "asset_id": null,
+          "role": "quiz_prompt",
+          "sync_anchor": {
+            "segment_id": "seg_22",
+            "anchor_type": "phrase",
+            "quote": "金曜に休みが欲しい"
+          },
+          "position": {
+            "x": 0.1,
+            "y": 0.45,
+            "width": 0.8,
+            "height": 0.08
+          },
+          "style": {
+            "color": "#FFFFFF",
+            "size_role": "headline",
+            "weight": "black",
+            "alignment": "center",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "fade_up",
+            "out": "fade",
+            "duration_s": 0.4
+          }
+        },
+        {
+          "element_id": "s10_option_a",
+          "kind": "text",
+          "content": "A. Can I have Friday off?",
+          "asset_id": null,
+          "role": "option_a",
+          "sync_anchor": {
+            "segment_id": "seg_23",
+            "anchor_type": "phrase",
+            "quote": "Can I have Friday off?"
+          },
+          "position": {
+            "x": 0.1,
+            "y": 0.55,
+            "width": 0.8,
+            "height": 0.07
+          },
+          "style": {
+            "color": "#FFFFFF",
+            "size_role": "body",
+            "weight": "medium",
+            "alignment": "left",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "reveal",
+            "out": "fade",
+            "duration_s": 0.4
+          }
+        },
+        {
+          "element_id": "s10_option_b",
+          "kind": "text",
+          "content": "B. Could I take Friday off, please?",
+          "asset_id": null,
+          "role": "option_b",
+          "sync_anchor": {
+            "segment_id": "seg_24",
+            "anchor_type": "phrase",
+            "quote": "Could I take Friday off, please?"
+          },
+          "position": {
+            "x": 0.42,
+            "y": 0.55,
+            "width": 0.48,
+            "height": 0.09
+          },
+          "style": {
+            "color": "#2E9D69",
+            "size_role": "headline",
+            "weight": "bold",
+            "alignment": "left",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "highlight",
+            "out": "fade",
+            "duration_s": 0.45
+          }
+        }
+      ],
+      "transition_in": "cut",
+      "notes": "The audio says the second option is natural at 95.66 s; defer any correct-answer badge until the following scene.",
+      "visual_fallback": {
+        "mode": "3d_illustration",
+        "background": {
+          "primary": "#172B3A",
+          "secondary": "#0D1924",
+          "accent": "#4D9DE0",
+          "pattern": "dots"
+        },
+        "objects": [
+          {
+            "object_id": "scene_10_employee",
+            "shape": "person",
+            "position": {
+              "x": 0.13,
+              "y": 0.2,
+              "width": 0.23,
+              "height": 0.32
+            },
+            "color": "#4D9DE0",
+            "secondary_color": "#4D9DE0",
+            "label": null,
+            "detail": "Employee",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "float"
+          },
+          {
+            "object_id": "scene_10_office",
+            "shape": "monitor",
+            "position": {
+              "x": 0.61,
+              "y": 0.2,
+              "width": 0.27,
+              "height": 0.25
+            },
+            "color": "#A66BD6",
+            "secondary_color": "#4D9DE0",
+            "label": null,
+            "detail": "Workplace context",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "float"
+          }
+        ],
+        "connectors": [],
+        "notes": "Built-in 2.5D/3D educational illustration; no external image or video required."
+      }
+    },
+    {
+      "scene_id": "scene_11",
+      "scene_type": "summary",
+      "learning_goal": "A Natural Choice",
+      "segment_ids": [
+        "seg_25"
+      ],
+      "provisional_start_s": 95.66,
+      "provisional_end_s": 98.14,
+      "timing_status": "provisional",
+      "visual_summary": "Keep the workplace image faint in the background and make the second phrase the sole focal point. A check mark may appear with the spoken confirmation.",
+      "layout": "title_and_subtitle",
+      "asset_ids": [],
+      "elements": [
+        {
+          "element_id": "s11_phrase",
+          "kind": "text",
+          "content": "Could I take Friday off, please?",
+          "asset_id": null,
+          "role": "correct_phrase",
+          "sync_anchor": {
+            "segment_id": "seg_25",
+            "anchor_type": "phrase",
+            "quote": "ネイティブらしい自然な表現"
+          },
+          "position": {
+            "x": 0.1,
+            "y": 0.52,
+            "width": 0.8,
+            "height": 0.1
+          },
+          "style": {
+            "color": "#2E9D69",
+            "size_role": "headline",
+            "weight": "bold",
+            "alignment": "center",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "scale_in",
+            "out": "fade",
+            "duration_s": 0.45
+          }
+        },
+        {
+          "element_id": "s11_label",
+          "kind": "text",
+          "content": "NATURAL & POLITE",
+          "asset_id": null,
+          "role": "reinforcement",
+          "sync_anchor": {
+            "segment_id": "seg_25",
+            "anchor_type": "phrase",
+            "quote": "自然な表現"
+          },
+          "position": {
+            "x": 0.1,
+            "y": 0.64,
+            "width": 0.8,
+            "height": 0.06
+          },
+          "style": {
+            "color": "#FFFFFF",
+            "size_role": "label",
+            "weight": "bold",
+            "alignment": "center",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "fade_up",
+            "out": "fade",
+            "duration_s": 0.4
+          }
+        }
+      ],
+      "transition_in": "fade",
+      "notes": "This is a reinforcement scene, not a new grammar rule.",
+      "visual_fallback": {
+        "mode": "3d_illustration",
+        "background": {
+          "primary": "#172B3A",
+          "secondary": "#0D1924",
+          "accent": "#A66BD6",
+          "pattern": "soft_glow"
+        },
+        "objects": [
+          {
+            "object_id": "scene_11_answer",
+            "shape": "card",
+            "position": {
+              "x": 0.25,
+              "y": 0.17,
+              "width": 0.5,
+              "height": 0.33
+            },
+            "color": "#2E9D69",
+            "secondary_color": "#4D9DE0",
+            "label": null,
+            "detail": "Correct answer card",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "pulse"
+          }
+        ],
+        "connectors": [],
+        "notes": "Built-in 2.5D/3D educational illustration; no external image or video required."
+      }
+    },
+    {
+      "scene_id": "scene_12",
+      "scene_type": "call_to_action",
+      "learning_goal": "Follow Along",
+      "segment_ids": [
+        "seg_26",
+        "seg_27"
+      ],
+      "provisional_start_s": 98.14,
+      "provisional_end_s": 106.23,
+      "timing_status": "provisional",
+      "visual_summary": "Use the audience question image as a gentle closing visual. Show a concise invitation to follow along; leave the bottom subtitle region unobstructed.",
+      "layout": "title_and_subtitle",
+      "asset_ids": [],
+      "elements": [
+        {
+          "element_id": "s12_cta",
+          "kind": "text",
+          "content": "WANT MORE NATURAL ENGLISH?",
+          "asset_id": null,
+          "role": "cta",
+          "sync_anchor": {
+            "segment_id": "seg_26",
+            "anchor_type": "phrase",
+            "quote": "もっとこんなフレーズが知りたい？"
+          },
+          "position": {
+            "x": 0.1,
+            "y": 0.44,
+            "width": 0.8,
+            "height": 0.08
+          },
+          "style": {
+            "color": "#FFFFFF",
+            "size_role": "headline",
+            "weight": "bold",
+            "alignment": "center",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "fade_up",
+            "out": "fade",
+            "duration_s": 0.45
+          }
+        },
+        {
+          "element_id": "s12_follow",
+          "kind": "text",
+          "content": "FOLLOW ALONG",
+          "asset_id": null,
+          "role": "cta",
+          "sync_anchor": {
+            "segment_id": "seg_27",
+            "anchor_type": "phrase",
+            "quote": "Follow along."
+          },
+          "position": {
+            "x": 0.1,
+            "y": 0.59,
+            "width": 0.8,
+            "height": 0.09
+          },
+          "style": {
+            "color": "#F5C84C",
+            "size_role": "display",
+            "weight": "black",
+            "alignment": "center",
+            "text_effect": "card",
+            "background_color": null,
+            "font_scale": 1.0
+          },
+          "animation": {
+            "in": "scale_in",
+            "out": "fade",
+            "duration_s": 0.45
+          }
+        }
+      ],
+      "transition_in": "dissolve",
+      "notes": "End at the supplied audio duration of 106.23 seconds.",
+      "visual_fallback": {
+        "mode": "3d_illustration",
+        "background": {
+          "primary": "#172B3A",
+          "secondary": "#0D1924",
+          "accent": "#F5C84C",
+          "pattern": "dots"
+        },
+        "objects": [
+          {
+            "object_id": "scene_12_person",
+            "shape": "person",
+            "position": {
+              "x": 0.15,
+              "y": 0.25,
+              "width": 0.24,
+              "height": 0.32
+            },
+            "color": "#4D9DE0",
+            "secondary_color": "#4D9DE0",
+            "label": null,
+            "detail": "Presenter",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "float"
+          },
+          {
+            "object_id": "scene_12_bubble",
+            "shape": "speech_bubble",
+            "position": {
+              "x": 0.54,
+              "y": 0.18,
+              "width": 0.3,
+              "height": 0.22
+            },
+            "color": "#A66BD6",
+            "secondary_color": "#4D9DE0",
+            "label": null,
+            "detail": "Follow along callout",
+            "depth": 0.2,
+            "variant": "solid",
+            "animation": "float"
+          }
+        ],
+        "connectors": [],
+        "notes": "Built-in 2.5D/3D educational illustration; no external image or video required."
+      }
+    }
+  ],
+  "alignment": {
+    "status": "pending",
+    "method": "forced_alignment",
+    "word_level_timestamps_available": false,
+    "replace_provisional_times_after_alignment": true,
+    "notes": "The supplied timestamps mark segment starts, not word-level boundaries. The app must align the provided audio and exact source transcript before final timing of scene elements and karaoke subtitles."
+  },
+  "render": {
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "background_policy": "fill_crop",
+    "subtitle_policy": "full_sentence",
+    "audio_source": "provided_audio"
+  }
+}

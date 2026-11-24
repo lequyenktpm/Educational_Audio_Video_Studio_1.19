@@ -1,0 +1,22 @@
+Educational Audio Video Studio 1.18
+==================================
+
+Reading Along sync
+- Replaced duration-only frame timing with an absolute word-onset timeline.
+- Keeps the active word/pointer visible through inter-word pauses and breaths.
+- Adds an unhighlighted opening state for leading silence and holds the last word to audio end.
+- Uses character-based matching between transcript text and Whisper word/phrase timestamps.
+- Supports English word timestamps and Japanese phrase/character timing when faster-whisper returns segment timestamps.
+- Enables Whisper alignment by default and clarifies the estimated-timing fallback.
+- Prevents small concat/fps rounding differences from truncating the narration tail.
+
+Layout
+- Scrollable tab content now stretches to at least the viewport height.
+- Short tabs no longer leave a large empty region below their controls.
+- Reading Along input and preview panes fill the available tab height.
+- Scrollbars remain conditional on actual overflow.
+
+Book page
+- Increased reading text size and line spacing.
+- Kept the text area and pointer clear of the footer and progress rail.
+- Preserved the existing palettes and illustration styles.

@@ -1,0 +1,25 @@
+Educational Audio Video Studio 1.11
+==================================
+
+New in 1.11
+- Expanded Add Karaoke Sub into a video finishing workflow.
+- Added 5 whole-video visual treatments: cinematic fade, slow zoom, soft vignette, warm film, cool tech.
+- Added optional outro text overlay for the final 0-6 seconds with fade-to-dark.
+- Added original audio mute and original volume control.
+- Added experimental stereo center-cancel dialogue reduction with explicit limitation checks.
+- Added optional looping background music and ambient SFX tracks with independent volume controls.
+- Added dedicated karaoke render progress bar and status text.
+- Made the Add Karaoke Sub settings panel vertically scrollable for smaller displays.
+- Preserved source video; output remains a separate MP4.
+
+Validation
+- Python compile passed.
+- FFmpeg smoke tests passed for all 5 video effect presets.
+- Audio mix smoke test passed with original audio + background music + ambient SFX.
+- Mute-original + music/SFX output passed.
+- No full Windows GUI runtime test was performed.
+
+Limitations
+- Video presets apply to the whole clip and its beginning/end; they do not create inter-shot transitions without edit points.
+- Center-cancel dialogue reduction is experimental and may remove centered instruments; it is not AI vocal separation.
+- Word highlighting remains estimated when subtitles contain only sentence-level timestamps.

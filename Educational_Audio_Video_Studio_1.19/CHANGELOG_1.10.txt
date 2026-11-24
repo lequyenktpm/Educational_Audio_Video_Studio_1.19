@@ -1,0 +1,29 @@
+Educational Audio Video Studio 1.10
+===================================
+
+New tab: Add Karaoke Sub
+- Standalone workflow: choose an existing video + timestamped subtitle file, then export a new MP4 with burned-in karaoke captions.
+- Does not require a project storyboard JSON or separate audio input.
+- Supported input subtitle formats: SRT, WebVTT (VTT), ASS, SSA, SBV and LRC.
+- Keeps each subtitle cue's supplied start/end timestamps.
+- For cue-level subtitles, divides the cue duration across words/phrase chunks by text length to approximate karaoke highlighting. This is not word-level forced alignment.
+- Six effect presets:
+  1. Classic Karaoke – tô màu từng từ
+  2. Neon Glow – phát sáng
+  3. Pop Bounce – bật nảy
+  4. Soft Caption Card – thẻ nền mờ
+  5. Minimal Outline – tối giản
+  6. Typewriter – hiện lần lượt
+- Configurable caption position (top / center / bottom) and font size (small / medium / large).
+- Preview button renders an actual sample frame from the selected video using the selected effect.
+- FFmpeg/libass burns captions into a separate MP4; source video is not overwritten by default.
+- Audio is retained and encoded to AAC. Video is encoded to H.264.
+
+Existing v1.9 functionality retained:
+- Nine illustration composition presets and random composition selector.
+- Collision-aware illustration layout and mixed Japanese/English subtitle spacing.
+- Existing storyboard schema v1.3 and asset workflow remain unchanged.
+
+Important:
+- This tab adds new hard subtitles. It does not remove or erase any hard-subtitles already visible in the input video.
+- Exact word highlighting requires timestamps for individual words. If the file only timestamps a whole sentence, word timing is estimated from the text length.

@@ -1,0 +1,9 @@
+Educational Audio Video Studio 1.8
+
+- Transcript picker: TXT/MD + SRT/VTT/ASS/SSA/SBV/LRC/SUB/SAMI/TTML/SCC.
+- Parse SRT/VTT/SBV/ASS/SSA to timestamped SRT-like transcript for prompt export.
+- Preserve native timestamp formats for LRC/SUB/SAMI/TTML/SCC.
+- Auto-name MP4 by audio filename; fallback to transcript/storyboard stem.
+- Auto-name exported prompt from the same input stem.
+- Manual MP4 output path remains respected after user selection.
+- Retains schema v1.3 and 1.7 renderer improvements.

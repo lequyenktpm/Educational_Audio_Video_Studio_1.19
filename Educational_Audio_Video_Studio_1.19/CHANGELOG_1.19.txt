@@ -1,0 +1,14 @@
+Educational Audio Video Studio 1.19
+
+NEW TAB: Merge Video + Audio
+- Single mode: select one video and one external audio file.
+- Batch mode: pair video/audio files by identical filename stem (case-insensitive, extension ignored).
+- Supported video: mp4, mov, mkv, avi, webm, m4v, mpeg, mpg.
+- Supported audio: mp3, wav, m4a, aac, flac, ogg, opus.
+- Missing audio matches are logged and skipped; ambiguous duplicate audio stems stop batch to prevent accidental mismatches.
+- Outputs are named <video_stem>_merged.mp4 in the selected output folder.
+- External audio replaces any original audio track. Output duration is limited to the shorter of video and external audio.
+- Optional text watermark with corner and opacity controls; optional two-line outro with configurable duration and fade-out.
+- Batch progress, error logging and cancel support.
+
+All 1.18 features are retained. Video is re-encoded to burn in watermark/outro.

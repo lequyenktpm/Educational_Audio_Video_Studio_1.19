@@ -1,0 +1,13 @@
+Educational Audio Video Studio 1.9
+
+- Added nine illustration composition presets and a Random button in the Project tab.
+- Prompt now enforces English word spacing and explicit text-spacing validation.
+- Reworked mixed Japanese/English word wrapping to preserve real spaces and avoid splitting English words.
+- Fixed visual fallback compositing so illustration layers are pasted onto the rendered canvas.
+- Added collision-safe object grid fallback and text-card placement against object/text rectangles.
+- Connectors are rendered behind pictograms and stop at object edges.
+- The strict no-overlap guard omits an overcrowded text overlay rather than drawing it on top of another element.
+- Fixed mixed Japanese/English karaoke token spacing: English word boundaries keep spaces while contiguous Japanese text remains compact.
+- Verified the example storyboard against schema v1.3 and ran 192 layout/object-count collision smoke cases.
+- Added illustration-layout and mixed-language karaoke preview images to the package.
+- Panel/grid layouts now use their corresponding reserved slots instead of accepting arbitrary AI coordinates that could place icons over panel dividers; freeform hero/diagram layouts retain AI placement only after collision checks.
